@@ -111,21 +111,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return $this->redirect($pathinfo.'/', 'kaliop_exo_homepage');
             }
 
-            return array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\DefaultController::indexAction',  '_route' => 'kaliop_exo_homepage',);
-        }
-
-        // kaliop_exo_hello_world
-        if ($pathinfo === '/helloworld') {
-            return array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\HelloController::indexAction',  '_route' => 'kaliop_exo_hello_world',);
-        }
-
-        // homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'homepage');
-            }
-
-            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
+            return array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\HomeController::indexAction',  '_route' => 'kaliop_exo_homepage',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

@@ -1,7 +1,3 @@
 kaliop_exo_homepage:
     path:     /
-    defaults: { _controller: KaliopExoBundle:Default:index }
-
-kaliop_exo_hello_world:
-    path:     /helloworld
-    defaults: { _controller: KaliopExoBundle:Hello:index }
+    defaults: { _controller: KaliopExoBundle:Home:index }

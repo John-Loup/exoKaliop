@@ -8,10 +8,10 @@ namespace Kaliop\ExoBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class HelloController extends Controller
+class HomeController extends Controller
 {
     public function indexAction()
     {
-        return $this->render("KaliopExoBundle:Hello:index.html.twig", array("hello" => "Hell ", "world" => "Yeah "));
+        return $this->render("KaliopExoBundle:Home:index.html.twig", array("hello" => "Hell ", "world" => "Yeah "));
     }
 }
