@@ -110,9 +110,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_homepage')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::indexAction',  'page' => 1,));
         }
 
-        // kaliop_exo_view_article
+        // kaliop_exo_view
         if (0 === strpos($pathinfo, '/view') && preg_match('#^/view/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_view_article')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::viewAction',));
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_view')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::viewAction',));
         }
 
         // kaliop_exo_add

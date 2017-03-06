@@ -1,0 +1,23 @@
+{% extends "KaliopExoBundle::b_layout.html.twig" %}
+
+{% block title %}
+    Lecture d'un article - {{ article.title  }}
+{% endblock %}
+
+{% block b_body %}
+    <h2>{{ article.title }}</h2>
+    <i>Par {{ article.author }}, le {{ article.date|date("d/m/Y") }}</i>
+
+    <div class="well">
+        {{ article.content }}
+    </div>
+
+    <p>
+        <a class="btn btn-default" href="{{ path("kaliop_exo_homepage") }}">
+            <i class="glyphicon glyphicon-chevron-left"> Annuler</i>
+        </a>
+        <a class="btn btn-default" href="{{ path("kaliop_exo_edit", {"id": article.id}) }}">
+            <i class="glyphicon glyphicon-edit"> Modifier</i>
+        </a>
+    </p>
+{% endblock %}

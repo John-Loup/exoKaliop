@@ -10,7 +10,7 @@ kaliop_exo_homepage:
 
 # Visionner un artile
 
-kaliop_exo_view_article:
+kaliop_exo_view:
     path:     /view/{id}
     defaults: { _controller: KaliopExoBundle:Core:view }
     requirements:

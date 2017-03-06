@@ -1,0 +1,24 @@
+{% extends "KaliopExoBundle::b_layout.html.twig" %}
+
+{%  block title %}
+    Ajouter un article - {{ article.title }}
+{%  endblock %}
+
+{% block b_body %}
+    <h2>Ajouter un article</h2>
+
+    {{ include("KaliopExoBundle:Core:form.html.twig") }}
+
+    <p>Ici viendront les inputs</p>
+
+    <p>
+        <a href="{{ path("kaliop_exo_view", {"id": article.id}) }}" class="btn btn-primary">
+            <i class="glyphicon glypicon-chevron-left">Valider</i>
+        </a>
+    </p>
+    <p>
+        <a href="{{ path("kaliop_exo_homepage") }}" class="btn btn-default">
+            <i class="glyphicon glypicon-chevron-left">Annuler</i>
+        </a>
+    </p>
+{% endblock %}
