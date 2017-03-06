@@ -1,3 +1,29 @@
+# Page d'acceuil
+
 kaliop_exo_homepage:
-    path:     /
-    defaults: { _controller: KaliopExoBundle:Home:index }
+    path:     /{page}
+    defaults:
+        _controller: KaliopExoBundle:Core:index
+        page:        1
+    requirements:
+        page: \d*
+
+# Visionner un artile
+
+kaliop_exo_view_article:
+    path:     /view/{id}
+    defaults: { _controller: KaliopExoBundle:Core:view }
+    requirements:
+        id: \d+ #^([1-9][0-9]{0,2})$
+
+# Ajouter un article
+
+kaliop_exo_add:
+    path:     /add
+    defaults: { _controller: KaliopExoBundle:Core:add }
+
+# Éditer / supprimer un article
+
+kaliop_exo_edit:
+    path:     /edit/{id}
+    defaults: { _controller: KaliopExoBundle:Core:edit }

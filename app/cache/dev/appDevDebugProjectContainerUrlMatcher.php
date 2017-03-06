@@ -106,12 +106,23 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // kaliop_exo_homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'kaliop_exo_homepage');
-            }
+        if (preg_match('#^/(?P<page>\\d*)?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_homepage')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::indexAction',  'page' => 1,));
+        }
 
-            return array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\HomeController::indexAction',  '_route' => 'kaliop_exo_homepage',);
+        // kaliop_exo_view_article
+        if (0 === strpos($pathinfo, '/view') && preg_match('#^/view/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_view_article')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::viewAction',));
+        }
+
+        // kaliop_exo_add
+        if ($pathinfo === '/add') {
+            return array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::addAction',  '_route' => 'kaliop_exo_add',);
+        }
+
+        // kaliop_exo_edit
+        if (0 === strpos($pathinfo, '/edit') && preg_match('#^/edit/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'kaliop_exo_edit')), array (  '_controller' => 'Kaliop\\ExoBundle\\Controller\\CoreController::editAction',));
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
