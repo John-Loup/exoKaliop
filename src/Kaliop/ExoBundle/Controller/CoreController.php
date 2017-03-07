@@ -81,6 +81,14 @@ class CoreController extends Controller
             return $this->redirectToRoute("kaliop_exo_view_article", array("id" => 5));
         }
 
+        /*// Utilisation du service antispam
+        $antispam = $this->container->get("kaliop_exo.antispam");
+        $text = "";
+        if ($antispam->isSpam($text))
+        {
+            throw new \Exception("Désolé, votre message à été détecté comme étant un spam !");
+        }*/
+
         // Si on n'est pas en POST, alors on affiche le formulaire
         return $this->render("KaliopExoBundle:Core:add.html.twig", array(
             "article" => array("id" => 0, "title" => "Voyage au coeur de la Moria"))

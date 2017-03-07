@@ -2,351 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240c310e-397a-470d-a89b-3917759802f6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/g_layout.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/55/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c65722370616e656c416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/79/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223736561726368426172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9f/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223736561726368426172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e4/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c65722370616e656c416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/02/33/113302" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/03/af/28af03" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/04/13/9c1304" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/04/32/dd3204" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/05/59/4b5905" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/05/71/eb7105" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/07/26/8c2607" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/07/f0/56f007" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/07/fc/b9fc07" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/09/e0/42e009" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0a/a1/d7a10a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0a/bf/7cbf0a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0c/59/f4590c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0d/43/79430d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0e/34/4e340e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/0e/cb/57cb0e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/10/37/3b3710" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/10/57/8e5710" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/10/73/8c7310" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/11/cb/60cb11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/12/89/5c8912" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/14/fd/effd14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/16/0d/a00d16" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/18/68/5a6818" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/18/ba/efba18" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1a/2d/8f2d1a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1b/32/ea321b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1b/81/48811b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1c/35/c8351c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1d/17/ee171d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1e/77/26771e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1e/93/41931e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1e/ad/12ad1e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1f/66/ef661f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/22/e8/73e822" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/23/08/450823" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/23/a8/baa823" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/26/c3/b1c326" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/29/a3/76a329" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2a/5c/d55c2a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2a/b2/e0b22a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2a/c6/17c62a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2b/e5/c6e52b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2c/1c/b01c2c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/31/60/f66031" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/31/6c/a76c31" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/31/c3/e8c331" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/32/85/b08532" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/33/7a/d37a33" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/34/3e/913e34" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/35/59/da5935" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/35/cf/10cf35" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/36/55/435536" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/37/35/b93537" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/39/a7/65a739" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3b/02/2d023b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3b/08/d2083b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3c/35/c2353c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3c/60/b1603c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3d/67/b9673d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/41/5e/a35e41" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/41/9c/529c41" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/42/02/4e0242" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/43/1c/eb1c43" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/43/85/6c8543" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/46/09/5a0946" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/48/46/8b4648" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4a/1e/bd1e4a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4a/24/6c244a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4b/22/27224b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4b/97/83974b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4c/6e/056e4c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/52/71/be7152" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/52/af/29af52" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/53/15/ec1553" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/53/bb/3fbb53" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/55/05/5a0555" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/55/09/440955" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/55/e3/e6e355" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/56/98/289856" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/59/d0/61d059" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5b/35/ca355b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5b/d0/06d05b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5e/cb/eecb5e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/60/c9/63c960" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/61/03/130361" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/61/9e/899e61" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/62/2b/502b62" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/62/40/ed4062" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/62/93/9b9362" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/64/23/372364" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/66/b2/21b266" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/67/d7/f1d767" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/68/51/685168" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/6b/6a/686a6b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/6d/42/42426d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/6e/35/a1356e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/6f/28/1d286f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/70/f0/27f070" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/71/7d/1a7d71" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/72/ed/d7ed72" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/73/cb/efcb73" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/74/20/f62074" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/74/f2/88f274" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/77/ed/4ded77" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/78/70/ef7078" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/78/c1/cbc178" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/79/81/098179" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/7b/41/13417b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/7c/79/25797c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/7d/66/03667d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/7f/2e/e02e7f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/7f/71/1c717f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/80/52/db5280" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/81/8a/418a81" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/81/e9/f0e981" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/82/0b/ba0b82" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/85/49/de4985" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/85/c9/5cc985" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/86/31/563186" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/86/f5/d9f586" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/88/e4/56e488" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/89/1d/2f1d89" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/89/34/f83489" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/89/b7/fab789" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8a/82/d9828a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8b/57/2e578b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8b/5b/045b8b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8d/cc/5acc8d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8f/e2/f5e28f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/92/d6/b0d692" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/93/fa/e9fa93" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/94/59/a25994" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/94/c4/dfc494" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/95/32/033295" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/97/c4/7fc497" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/98/72/df7298" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9b/de/01de9b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9c/1e/e21e9c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9d/3f/703f9d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9e/36/05369e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9e/46/c4469e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9e/53/7f539e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/9f/a7/9ca79f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a0/3a/813aa0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a0/ae/ecaea0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a1/1f/541fa1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a1/44/fd44a1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a2/94/6f94a2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a4/a0/8aa0a4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a5/ff/6effa5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a6/2e/162ea6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a7/08/fb08a7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a7/2c/932ca7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a7/ab/c5aba7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a8/08/a208a8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a9/21/3e21a9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a9/83/d383a9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/aa/7b/607baa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/aa/f0/78f0aa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/aa/f4/68f4aa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ab/00/4a00ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ab/42/1e42ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ab/92/d292ab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ab/dd/89ddab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ad/05/ac05ad" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ad/d0/2dd0ad" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/af/84/5f84af" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/af/a6/22a6af" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b2/74/3a74b2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b2/a4/a0a4b2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b3/e5/57e5b3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b5/6b/2c6bb5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b7/61/b961b7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b7/a9/f4a9b7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b7/bf/9ebfb7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b7/d9/c8d9b7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b9/a5/6da5b9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/bb/68/7c68bb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/bc/03/6903bc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/bc/56/2756bc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/bd/f1/dcf1bd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c0/75/e075c0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c1/19/7f19c1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c1/35/ed35c1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c3/2d/9e2dc3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c3/4d/de4dc3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c3/f7/25f7c3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c4/05/6c05c4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c5/4f/fa4fc5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c5/ed/87edc5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c6/2a/442ac6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c6/8d/358dc6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c8/99/4199c8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c8/a3/2da3c8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ca/9f/599fca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ca/b8/4ab8ca" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/cc/dd/63ddcc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/cc/e7/48e7cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/cd/6b/4d6bcd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d2/75/9775d2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d2/bb/9ebbd2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d3/0d/ec0dd3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d3/1f/261fd3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d3/44/d844d3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d3/49/e249d3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d4/5a/1b5ad4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d4/a5/69a5d4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d4/dd/2addd4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d5/2c/a82cd5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d5/46/0646d5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d5/fa/12fad5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d6/97/4c97d6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d7/5f/d95fd7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d8/5a/715ad8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d9/ae/e2aed9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/db/3c/263cdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/db/8a/6a8adb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/db/ca/abcadb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/dc/92/b492dc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/de/dd/d6ddde" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/de/e8/b0e8de" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/df/3c/133cdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e2/58/4758e2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e2/72/2c72e2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e4/0b/1b0be4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e5/0f/8f0fe5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e5/ae/5daee5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ea/6b/be6bea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/eb/13/7813eb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ec/ee/54eeec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ee/58/e458ee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ef/53/9853ef" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ef/b3/d4b3ef" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ef/be/acbeef" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f0/20/5b20f0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f1/a8/22a8f1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f2/0d/070df2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f3/3e/813ef3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f4/94/7f94f4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f5/a6/9ba6f5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f6/ac/2bacf6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f6/ea/98eaf6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f7/d6/bad6f7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f8/1a/681af8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f9/5f/125ff9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f9/7f/5e7ff9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f9/d2/06d2f9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fa/51/e651fa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fa/af/2daffa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fb/eb/47ebfb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fc/0f/b20ffc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fc/b8/2db8fc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fd/e6/4ce6fd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fe/28/1928fe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fe/6e/c86efe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ff/6b/866bff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ff/fd/7afdff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/19/1954491e98d84b7224244527202c296d20d6b847aaf38c5af69ca979ef3e71e0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/23/23fe4136e214e3124bdaee4c7c78e8f469020169d3877985e4bcf8ed708f4919.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/41/41b4ddd6658ecb87bf03765a2c8d9eea3d5350d295f453c8c9ab6814474e791c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/48/48a2bfbfdeb777933469c7b09e1bd497f036485b8ae1f41915fbf86351d4b8ed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/53/5361837d6d5601e1d932c73aeedcd6a580f6cefaeb5dd88464ca58e103b4c7f0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/58/582aabf9cde1eaae67c5eabfb298fe1baa18482a12e185c7fc0f6f327b91a465.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/70/7038076932f764a4be0ac339738719a7015e54873b6ebe81beb9dd8370232329.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8b/8b5814c53f1c7bc0c367dfa616183bfe65e7dab949361ed9b7ccabf6b4453b8f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/96/961a3f6b0b1b0a018bf4a74d3800d07337be367f89456ebdadee7e3bf5a03972.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9d/9d5c9e7842af37f24ad5118ae24790d370b023a7bb7ce77fae47d6effc696bc0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9e/9e222074a422df3de8114de53b0e33fdb28a9a3804e9eebda90c51636115ee3c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c6/c69cdf7546fb96f52be42206da7aef4184a766d0a53c6c18e6064a2e7065fe16.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ca/ca9f1136625ddcc653a87c75e70a449d15b9275f8e6705c6a1417289d82d46af.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/cf/cfd9cb26aed75d07d5bb836fe0683fdcc0eb76ad9f8e653f6a7a9eb07975ab2f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/dd/ddca63b7f7d60c4100581772ac583d1ee27ed8089f09978a1231c2567462dcd3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/df/dffcf9c4b06188f2009c0fefe67f09ddacf1cb8a26e869a1fba810ffd703ffda.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fc/fcc9dc3b172e4bf664f37a6c17a19bb1476c9474226996edba152170c4d72de6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/articles.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Tests/Controller/DefaultControllerTest.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1c/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/1c/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7e/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c657223616464416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/7e/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c657223616464416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b6/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c6572236d656e75416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/b6/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c6572236d656e75416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c1/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/c1/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/f3/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/f3/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/f7/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/f7/5b5b435d4b616c696f705c45786f42756e646c655c436f6e74726f6c6c65725c436f7265436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/03/0361f7e5be3cd04ac22fd5fb746480fbce601ba4cb2cbe738c10e27d46b6d495.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/03/0361f7e5be3cd04ac22fd5fb746480fbce601ba4cb2cbe738c10e27d46b6d495.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/07/071df7bba12745c3d58995475f48ef7cdbc6a9946c5968096d857c51ae6c060e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/07/071df7bba12745c3d58995475f48ef7cdbc6a9946c5968096d857c51ae6c060e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/18/184ca3a2bf0f6f0a60e41774911baace3967bc6506197d35faf5c201f9dfdbb5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/18/184ca3a2bf0f6f0a60e41774911baace3967bc6506197d35faf5c201f9dfdbb5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/25/25d9b6ded31cadd3dadf07381050fae50c8c504d1c44ea17d4f9e6fbe1730926.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/25/25d9b6ded31cadd3dadf07381050fae50c8c504d1c44ea17d4f9e6fbe1730926.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/2a/2a208c406e044dbefdabf7c05f60e7b2d97d3cce7a858d8cd200d8b088ed7a03.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/2a/2a208c406e044dbefdabf7c05f60e7b2d97d3cce7a858d8cd200d8b088ed7a03.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/2f/2fb3fcf1286ebab889c1707e94c5ca7b5dd637a4ffe974c914bf564c9b281e2d.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/2f/2fb3fcf1286ebab889c1707e94c5ca7b5dd637a4ffe974c914bf564c9b281e2d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/34/34b0c3d2a7a6f413c85bb11c3a1247b7eebe64355ddd6f2e2f1dffc6ab8916d2.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/34/34b0c3d2a7a6f413c85bb11c3a1247b7eebe64355ddd6f2e2f1dffc6ab8916d2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/37/3786555a97835a1f516af5da8a57de8eed779ad7e3cf55b550df2200ec6c4224.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/37/3786555a97835a1f516af5da8a57de8eed779ad7e3cf55b550df2200ec6c4224.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/39/39337677ea7d39196725b5895a078b1eabd3bf3072e41441e62352040538a0c2.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/39/39337677ea7d39196725b5895a078b1eabd3bf3072e41441e62352040538a0c2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/39/394725c90aaf75be3902d16fc39e0159cb7296f7a4071f2a1646afefe94ae1db.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/39/394725c90aaf75be3902d16fc39e0159cb7296f7a4071f2a1646afefe94ae1db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c58411b2bb45023da9504f1b71dbae59eb3d7c17a7a91a8ba94b71bc8bc2fd6.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c58411b2bb45023da9504f1b71dbae59eb3d7c17a7a91a8ba94b71bc8bc2fd6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/40/40f926cf6098825b05db1120cdd3562e959f1e998bb90ac9c74be4b5e58de3a0.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/40/40f926cf6098825b05db1120cdd3562e959f1e998bb90ac9c74be4b5e58de3a0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/43/439a6101e43a88a0d2f86a5b462e94d15783ee0d094330c9fc6e266a6fad738f.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/43/439a6101e43a88a0d2f86a5b462e94d15783ee0d094330c9fc6e266a6fad738f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/52/52040a820c393a1644dbc36852a56a892632462d865d68376aed417b04023d30.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/52/52040a820c393a1644dbc36852a56a892632462d865d68376aed417b04023d30.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/53/5382c8f3641cfcaa5a57c24df841ad230126929dea051a89968185e495052ef4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/53/5382c8f3641cfcaa5a57c24df841ad230126929dea051a89968185e495052ef4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/59b145269ff1f29aeb358327b4fde7b9004cfe9581163156ec1c2c2fe4b43914.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/59b145269ff1f29aeb358327b4fde7b9004cfe9581163156ec1c2c2fe4b43914.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/62/627fd6f4572337a6cfe4f8700b18dc077ea9f933f55a3545e205db6834ca6a1b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/62/627fd6f4572337a6cfe4f8700b18dc077ea9f933f55a3545e205db6834ca6a1b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/65/65c03c47fff8419e2223edade7ac5f507dac7da16e005719d733e2c88ad86d18.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/65/65c03c47fff8419e2223edade7ac5f507dac7da16e005719d733e2c88ad86d18.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/67/6778833834b17a24e8356e05209a8e446aebf5b66b966e8b13832ff637dd102b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/67/6778833834b17a24e8356e05209a8e446aebf5b66b966e8b13832ff637dd102b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/71/71b1dfca6443b52e4021bf1409bf3a0fdb6521cdcb4fe14f9d6aa100c346a4b5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/71/71b1dfca6443b52e4021bf1409bf3a0fdb6521cdcb4fe14f9d6aa100c346a4b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/79/79bd6bce8d67bbb3754ca8d7874457ed9e95dece1774e97dbfc2f2f61d4892fb.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/79/79bd6bce8d67bbb3754ca8d7874457ed9e95dece1774e97dbfc2f2f61d4892fb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7f/7f8673a5a9fa15e528f5284a0e440ac7edb3a56cd2e24b6f44c0c74756d14431.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/7f/7f8673a5a9fa15e528f5284a0e440ac7edb3a56cd2e24b6f44c0c74756d14431.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/84/84b27abb06420bb013bc5badaf2b8e5c4b875361b24f0dfea72ef35db14d02e5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/84/84b27abb06420bb013bc5badaf2b8e5c4b875361b24f0dfea72ef35db14d02e5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/88/8849705dc70470468f1bf24c5b6005d0335a518cdf131dabfbb78530347d85a8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/88/8849705dc70470468f1bf24c5b6005d0335a518cdf131dabfbb78530347d85a8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8d/8d1d86737e56ab603544411474767bbadfa027fe1161a32f24888185ba31175a.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/8d/8d1d86737e56ab603544411474767bbadfa027fe1161a32f24888185ba31175a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/99/9958b29032b8fe947d597de75bdbd4c2ab633c0bd8347a2c65e8efa190fda3a3.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/99/9958b29032b8fe947d597de75bdbd4c2ab633c0bd8347a2c65e8efa190fda3a3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a0/a07ff87f0a0cb0910029ce7c12d10482f71a100090cf7ff2c080d8db1790d99b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a0/a07ff87f0a0cb0910029ce7c12d10482f71a100090cf7ff2c080d8db1790d99b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a2/a2df22d5184dc53fb8dbd02f346daa128ed3bd1596f4da37eddbb31a0c40ee3b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a2/a2df22d5184dc53fb8dbd02f346daa128ed3bd1596f4da37eddbb31a0c40ee3b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a5/a51e46e4b400ddc7d632743502aea705aa0cc75b0243b18dc03bf52703f230bf.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a5/a51e46e4b400ddc7d632743502aea705aa0cc75b0243b18dc03bf52703f230bf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a8/a848027438b77db2c93868cac93cdca0acef45992186af93d3462c88f7e367c7.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a8/a848027438b77db2c93868cac93cdca0acef45992186af93d3462c88f7e367c7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a9/a95ad2ccd6dbd248112ecc3ac5c365bdeff1ec8266deb433500decb8891ac6b4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a9/a95ad2ccd6dbd248112ecc3ac5c365bdeff1ec8266deb433500decb8891ac6b4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/aa/aada9ce40ebb21805694c6ddc6f5ea4adbc1e096e0068ba3d56a9930dcc799f7.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/aa/aada9ce40ebb21805694c6ddc6f5ea4adbc1e096e0068ba3d56a9930dcc799f7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b6/b63886e0d583fe5477dab448cfcd8966bbc9654ead29ab4ee489cb2172b9af80.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b6/b63886e0d583fe5477dab448cfcd8966bbc9654ead29ab4ee489cb2172b9af80.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b7/b7a65e1efc0c87caf997dd9df2d04ba28181cb7256a66c3324113531c05daf66.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b7/b7a65e1efc0c87caf997dd9df2d04ba28181cb7256a66c3324113531c05daf66.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ba/bad898fc89a4e1c9377419a291cdb582c5adbea8f0acb5aa84c5bae907617e5a.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ba/bad898fc89a4e1c9377419a291cdb582c5adbea8f0acb5aa84c5bae907617e5a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c5/c5acd8760a1241d0a9a402d7e67caecf3a1edb960fe5d212a9afb70425d98a05.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c5/c5acd8760a1241d0a9a402d7e67caecf3a1edb960fe5d212a9afb70425d98a05.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c7/c737c57ccf0bee970c79baa7370c4401373c8cfbef8793dd3a389d52fa66af1f.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c7/c737c57ccf0bee970c79baa7370c4401373c8cfbef8793dd3a389d52fa66af1f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c9/c98e9ec08c564a9896987fabd3d82aff94918b1d9747e1c6385df78c7c8e0940.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c9/c98e9ec08c564a9896987fabd3d82aff94918b1d9747e1c6385df78c7c8e0940.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d1/d1b0a962d1e61083f7dd7f5801dfaaddacd51e9cfe535961ca89c778dfa1ff99.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/d1/d1b0a962d1e61083f7dd7f5801dfaaddacd51e9cfe535961ca89c778dfa1ff99.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d6/d65d25752a66d52f55b7009052d07a49ee245d4ecefeabfee3178bd1a0e14655.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/d6/d65d25752a66d52f55b7009052d07a49ee245d4ecefeabfee3178bd1a0e14655.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed26561261a5ed9d565f42cc9750c22800cf5c5c7b816a39da4e33653e2c7d2a.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed26561261a5ed9d565f42cc9750c22800cf5c5c7b816a39da4e33653e2c7d2a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5fc10856d586694b6ed8fd83654d50e81890888d37beb07c3a540add6f0c690.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5fc10856d586694b6ed8fd83654d50e81890888d37beb07c3a540add6f0c690.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/add.html.twig" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/add.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/edit.html.twig" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/index.html.twig" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/b_layout.html.twig" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/b_layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/services.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -368,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoreController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state relative-caret-position="36">
+              <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="89" selection-end-column="11" />
               <folding>
                 <element signature="e#47#104#0#PHP" expanded="true" />
               </folding>
@@ -380,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/view.html.twig">
+      <file leaf-file-name="AntiSpam.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/AntiSpam/AntiSpam.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="342">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -393,8 +62,38 @@
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="36">
               <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appDevDebugProjectContainer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="1473" column="7" lean-forward="false" selection-start-line="1473" selection-start-column="7" selection-end-line="1473" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -423,7 +122,7 @@
       <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="180">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -440,22 +139,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>query</find>
       <find>get(</find>
+      <find>templating</find>
+      <find>getTempl</find>
+      <find>antispam</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -489,6 +181,9 @@
         <option value="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/view.html.twig" />
         <option value="$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php" />
+        <option value="$PROJECT_DIR$/src/Kaliop/ExoBundle/AntiSpam/AntiSpam.php" />
+        <option value="$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -503,7 +198,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="21" />
+    <option name="y" value="-747" />
     <option name="width" value="1366" />
     <option name="height" value="747" />
   </component>
@@ -525,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -600,44 +293,6 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoKaliop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoKaliop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kaliop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExoBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -679,34 +334,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoKaliop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoKaliop" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="Kaliop" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="ExoBundle" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="DependencyInjection" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -794,18 +441,19 @@
       <workItem from="1488395038942" duration="9394000" />
       <workItem from="1488462267636" duration="56000" />
       <workItem from="1488536586329" duration="11116000" />
-      <workItem from="1488795407269" duration="13845000" />
+      <workItem from="1488795407269" duration="14874000" />
+      <workItem from="1488880172030" duration="5607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47483000" />
+    <option name="totallyTimeSpent" value="54119000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="21" width="1366" height="747" extended-state="6" />
+    <frame x="0" y="-747" width="1366" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2205438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22356495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18202417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -854,55 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="e#47#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/19759698-f1c4-48ca-a4e3-8091df81f4c4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/HelloController.php" />
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Default/index.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/DefaultController.php" />
@@ -933,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,13 +571,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/HomeController.php" />
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/DependencyInjection/KaliopExoExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -998,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4158">
           <caret line="238" column="19" lean-forward="false" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4932">
           <caret line="282" column="48" lean-forward="false" selection-start-line="282" selection-start-column="44" selection-end-line="282" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2970">
           <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,43 +623,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/View/articles.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Add/add.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/g_layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/g_layout.html.twig" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/articles.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/articles.html.twig" />
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="11" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,15 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/views/Core/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1140,13 +695,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/DependencyInjection/KaliopExoExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/AntiSpam/AntiSpam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1473" column="7" lean-forward="false" selection-start-line="1473" selection-start-column="7" selection-end-line="1473" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Controller/CoreController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        <state relative-caret-position="36">
+          <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="89" selection-end-column="11" />
           <folding>
             <element signature="e#47#104#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kaliop/ExoBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
