@@ -15,8 +15,8 @@ class __TwigTemplate_3097f769a829c183b18c61d7cd2715bff177446f5ba8586ac5ed7343bab
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e7027f70494fead174a1e7dd17841b41bd013e334eca0600c52ba4c43eef50f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e7027f70494fead174a1e7dd17841b41bd013e334eca0600c52ba4c43eef50f0->enter($__internal_e7027f70494fead174a1e7dd17841b41bd013e334eca0600c52ba4c43eef50f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KaliopExoBundle:Core:form.html.twig"));
+        $__internal_f1d921e9db902afb8e0f71652e578268ffe50c1edaeb45d70c5f78047de012ed = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f1d921e9db902afb8e0f71652e578268ffe50c1edaeb45d70c5f78047de012ed->enter($__internal_f1d921e9db902afb8e0f71652e578268ffe50c1edaeb45d70c5f78047de012ed_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KaliopExoBundle:Core:form.html.twig"));
 
         // line 1
         echo "<h3>Formulaire de création d'article</h3>
@@ -25,7 +25,7 @@ class __TwigTemplate_3097f769a829c183b18c61d7cd2715bff177446f5ba8586ac5ed7343bab
     Ici se trouvera le formulaire
 </div>";
         
-        $__internal_e7027f70494fead174a1e7dd17841b41bd013e334eca0600c52ba4c43eef50f0->leave($__internal_e7027f70494fead174a1e7dd17841b41bd013e334eca0600c52ba4c43eef50f0_prof);
+        $__internal_f1d921e9db902afb8e0f71652e578268ffe50c1edaeb45d70c5f78047de012ed->leave($__internal_f1d921e9db902afb8e0f71652e578268ffe50c1edaeb45d70c5f78047de012ed_prof);
 
     }
 

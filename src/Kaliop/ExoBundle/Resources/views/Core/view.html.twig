@@ -8,6 +8,11 @@
     <h2>{{ article.title }}</h2>
     <i>Par {{ article.author }}, le {{ article.date|date("d/m/Y") }}</i>
 
+    {% if article.image is not null %}
+        <br>
+        <img src="{{ article.image.url }}" alt="{{ article.image.alt }}" style="width:400px; height:200px;">
+    {% endif %}
+
     <div class="well">
         {{ article.content }}
     </div>

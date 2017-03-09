@@ -15,8 +15,8 @@ class __TwigTemplate_16d46223aec9a579a7abd10b454c0af65e7d915323bb1fbd8a4e6aec3d1
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_10b2c14b9ef0366eccf4115c8c04f4854f77edd433213d4c8cc3929ffd640d0b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_10b2c14b9ef0366eccf4115c8c04f4854f77edd433213d4c8cc3929ffd640d0b->enter($__internal_10b2c14b9ef0366eccf4115c8c04f4854f77edd433213d4c8cc3929ffd640d0b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KaliopExoBundle:Core:menu.html.twig"));
+        $__internal_a501a696f84479e36d3dd60691d36a09c8959efdf1bf3f207face67c7975f3e4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a501a696f84479e36d3dd60691d36a09c8959efdf1bf3f207face67c7975f3e4->enter($__internal_a501a696f84479e36d3dd60691d36a09c8959efdf1bf3f207face67c7975f3e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KaliopExoBundle:Core:menu.html.twig"));
 
         // line 1
         echo "<ul class=\"nav nav-pills nav-stacked\">
@@ -42,7 +42,7 @@ class __TwigTemplate_16d46223aec9a579a7abd10b454c0af65e7d915323bb1fbd8a4e6aec3d1
         // line 7
         echo "</ul>";
         
-        $__internal_10b2c14b9ef0366eccf4115c8c04f4854f77edd433213d4c8cc3929ffd640d0b->leave($__internal_10b2c14b9ef0366eccf4115c8c04f4854f77edd433213d4c8cc3929ffd640d0b_prof);
+        $__internal_a501a696f84479e36d3dd60691d36a09c8959efdf1bf3f207face67c7975f3e4->leave($__internal_a501a696f84479e36d3dd60691d36a09c8959efdf1bf3f207face67c7975f3e4_prof);
 
     }
 

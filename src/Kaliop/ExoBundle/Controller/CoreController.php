@@ -5,6 +5,8 @@ namespace Kaliop\ExoBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Kaliop\ExoBundle\Entity\Article;
+use Kaliop\ExoBundle\Entity\Image;
 
 class CoreController extends Controller
 {
@@ -47,7 +49,24 @@ class CoreController extends Controller
 
     public function viewAction($id)
     {
-        // Je simule une itération sur une DB
+        $repository = $this->getDoctrine()->getManager()->getRepository("KaliopExoBundle:Article");
+        $article = $repository->find($id);
+
+        $image = new Image();
+        $image->setUrl("http://merry.emy.free.fr/ttlemonde/fantasy/SDA/moria.jpg");
+        $image->setAlt("/");
+        $article->setImage($image);
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($article);
+        $em->flush();
+
+
+        if ($article === null)
+        {
+            throw new NotFoundHttpException("L'annonce {$id} n'éxiste pas.");
+        }
+
+        /*// Je simule une itération sur une DB
         $article = array(
             "id" => $id,
             "title" => "Voyage au coeur de la Moria",
@@ -63,7 +82,7 @@ class CoreController extends Controller
                 La cupidité des Nains les pousse à creuser toujours plus profondément sous les montagnes, et, au milieu du Troisième Âge, 
                 ils réveillent accidentellement un Balrog, puissante créature démoniaque qui les contraint à abandonner la cité. 
                 Par la suite, Sauron, le Seigneur Sombre, repeuple les ruines de la Moria avec ses Orques."
-        );
+        );*/
 
         // Je récupère l'annonce correspondante à $id
         return $this->render("KaliopExoBundle:Core:view.html.twig", array("article" => $article));
@@ -71,6 +90,38 @@ class CoreController extends Controller
 
     public function addAction(Request $request)
     {
+        // Création de l'entité Article
+        $article = new Article();
+        $article->setTitle("Voyage au coeur de la Moria");
+        $article->setAuthor("Gimli");
+        $article->setContent("
+            La Moria est une ville souterraine du légendaire de l'écrivain britannique J. R. R. Tolkien, 
+            apparaissant notamment dans Le Seigneur des anneaux, et plus particulièrement dans La Fraternité de l'anneau. 
+            Les ruines de cette ancienne cité naine de la Terre du Milieu, située sous la chaîne des Montagnes de Brume, 
+            sont traversées par les membres de la Fraternité de l'Anneau qui cherchent à franchir les montagnes.
+            Fondée dans un lointain passé par Durin, l'un des Sept Pères de la race naine, la Moria est pendant des millénaires 
+            une cité florissante grâce à la présence d'une veine de mithril, métal précieux entre tous, dans ses profondeurs. 
+            Au Deuxième Âge, elle entretient des relations fructueuses avec les Elfes du royaume voisin d'Eregion. 
+            La cupidité des Nains les pousse à creuser toujours plus profondément sous les montagnes, et, au milieu du Troisième Âge, 
+            ils réveillent accidentellement un Balrog, puissante créature démoniaque qui les contraint à abandonner la cité. 
+            Par la suite, Sauron, le Seigneur Sombre, repeuple les ruines de la Moria avec ses Orques.
+        ");
+
+        // Création de l'entity Image
+        $image = new Image();
+        $image->setUrl("http://merry.emy.free.fr/ttlemonde/fantasy/SDA/moria.jpg");
+        $image->setAlt("/");
+
+        // Liaison de l'image a l'article
+        $article->setImage($image);
+
+        // Récupération de l'entity manager
+        $em = $this->getDoctrine()->getManager();
+        // 1) Je persiste l'entité
+        $em->persist($article);
+        // 2) Flush
+        $em->flush();
+
         // Si la requête est en POST, c'est que le visiteur a soumis le formulaire
         if ($request->isMethod("POST"))
         {
