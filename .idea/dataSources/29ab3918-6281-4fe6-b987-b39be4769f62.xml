@@ -52,41 +52,50 @@
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <index id="21" parent="12" name="UNIQ_23A0E663DA5256D">
+    <column id="21" parent="12" name="update_date">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="22" parent="12" name="nb_articles">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="23" parent="12" name="UNIQ_23A0E663DA5256D">
       <ColNames>image_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="22" parent="12" name="PRIMARY">
+    <key id="24" parent="12" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="23" parent="12" name="UNIQ_23A0E663DA5256D">
+    <key id="25" parent="12" name="UNIQ_23A0E663DA5256D">
       <ColNames>image_id</ColNames>
       <UnderlyingIndexName>UNIQ_23A0E663DA5256D</UnderlyingIndexName>
     </key>
-    <foreign-key id="24" parent="12" name="FK_23A0E663DA5256D">
+    <foreign-key id="26" parent="12" name="FK_23A0E663DA5256D">
       <ColNames>image_id</ColNames>
       <RefSchemaName>exoKaliop</RefSchemaName>
       <RefTableName>image</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="25" parent="13" name="id">
+    <column id="27" parent="13" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="26" parent="13" name="url">
+    <column id="28" parent="13" name="url">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="27" parent="13" name="alt">
+    <column id="29" parent="13" name="alt">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="28" parent="13" name="PRIMARY">
+    <key id="30" parent="13" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

@@ -12,4 +12,43 @@ use Doctrine\ORM\EntityRepository;
  */
 class ArticleRepository extends EntityRepository
 {
+    public function findByAuthor($author) /* Retourne tous les articles d'un autheur */
+    {
+        return $this
+            ->createQueryBuilder("a")
+            ->where("a.author = :author")
+            ->setParameter("author", $author)
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
+
+
+    public function findByAuthorAndYear($author, $year) /* Retourne les articles triés par autheur et année */
+    {
+        return $this
+            ->createQueryBuilder("a")
+            ->where("a.author = :author")
+            ->setParameter("author", $author)
+            ->andWhere("a.date < :year")
+            ->setParameter("year", $year)
+            ->orderBy("a.date", "DESC")
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
+
+
+    public function getArticleWithImage()
+    {
+        return $this
+            ->createQueryBuilder("a")
+            ->leftJoin("a.image", "img")
+            ->addSelect("img")
+            ->getQuery()
+            ->getResult()
+        ;
+    }
 }

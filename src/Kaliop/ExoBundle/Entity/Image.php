@@ -21,6 +21,8 @@ class Image
      */
     private $id;
 
+
+
     /**
      * @var string
      *
@@ -28,12 +30,15 @@ class Image
      */
     private $url;
 
+
+
     /**
      * @var string
      *
      * @ORM\Column(name="alt", type="string", length=255)
      */
     private $alt;
+
 
 
     /**
@@ -45,6 +50,8 @@ class Image
     {
         return $this->id;
     }
+
+
 
     /**
      * Set url
@@ -59,6 +66,8 @@ class Image
         return $this;
     }
 
+
+
     /**
      * Get url
      *
@@ -68,6 +77,8 @@ class Image
     {
         return $this->url;
     }
+
+
 
     /**
      * Set alt
@@ -81,6 +92,8 @@ class Image
 
         return $this;
     }
+
+
 
     /**
      * Get alt

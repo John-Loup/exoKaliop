@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\Table(name="article")
  * @ORM\Entity(repositoryClass="Kaliop\ExoBundle\Repository\ArticleRepository")
+ * @ORM\HasLifecycleCallbacks()
  */
 class Article
 {
@@ -21,12 +22,16 @@ class Article
      */
     private $id;
 
+
+
     /**
      * @var \DateTime
      *
      * @ORM\Column(name="date", type="datetime")
      */
     private $date;
+
+
 
     /**
      * @var string
@@ -35,12 +40,16 @@ class Article
      */
     private $title;
 
+
+
     /**
      * @var string
      *
      * @ORM\Column(name="author", type="string", length=60)
      */
     private $author;
+
+
 
     /**
      * @var string
@@ -49,6 +58,8 @@ class Article
      */
     private $content;
 
+
+
     /**
      * @var boolean
      *
@@ -56,12 +67,34 @@ class Article
      */
     private $published = false;
 
+
+
     /**
      * @var
      *
      * @ORM\OneToOne(targetEntity="Kaliop\ExoBundle\Entity\Image", cascade={"persist", "remove"})
      */
     private $image;
+
+
+
+    /**
+     * @var
+     *
+     * @ORM\Column(name="update_date", type="datetime", nullable=true)
+     */
+    private $updateDate;
+
+
+
+    /**
+     * @var
+     *
+     * @ORM\Column(name="nb_articles", type="integer")
+     */
+    private $nbArticles = 0;
+
+
 
     public function __construct()
     {
@@ -79,6 +112,8 @@ class Article
         return $this->id;
     }
 
+
+
     /**
      * Set date
      *
@@ -92,6 +127,8 @@ class Article
         return $this;
     }
 
+
+
     /**
      * Get date
      *
@@ -101,6 +138,8 @@ class Article
     {
         return $this->date;
     }
+
+
 
     /**
      * Set title
@@ -115,6 +154,8 @@ class Article
         return $this;
     }
 
+
+
     /**
      * Get title
      *
@@ -124,6 +165,8 @@ class Article
     {
         return $this->title;
     }
+
+
 
     /**
      * Set author
@@ -138,6 +181,8 @@ class Article
         return $this;
     }
 
+
+
     /**
      * Get author
      *
@@ -147,6 +192,8 @@ class Article
     {
         return $this->author;
     }
+
+
 
     /**
      * Set content
@@ -161,6 +208,8 @@ class Article
         return $this;
     }
 
+
+
     /**
      * Get content
      *
@@ -170,6 +219,8 @@ class Article
     {
         return $this->content;
     }
+
+
 
     /**
      * Set the current state or publishment (bool)
@@ -181,6 +232,8 @@ class Article
         $this->published = $published;
     }
 
+
+
     /**
      * Return true if the article is published
      *
@@ -191,6 +244,8 @@ class Article
         return $this->published;
     }
 
+
+
     /**
      * @param mixed $image
      */
@@ -199,11 +254,85 @@ class Article
         $this->image = $image;
     }
 
+
+
     /**
      * @return mixed
      */
     public function getImage()
     {
         return $this->image;
+    }
+
+
+
+    /**
+     * @param mixed $updateDate
+     */
+    public function setUpdateDate($updateDate)
+    {
+        $this->updateDate = $updateDate;
+    }
+
+
+
+    /**
+     * @return mixed
+     */
+    public function getUpdateDate()
+    {
+        return $this->updateDate;
+    }
+
+
+
+    /**
+     * @param mixed $nbArticles
+     */
+    public function setNbArticles($nbArticles)
+    {
+        $this->nbArticles = $nbArticles;
+    }
+
+
+
+    /**
+     * @return mixed
+     */
+    public function getNbArticles()
+    {
+        return $this->nbArticles;
+    }
+
+
+
+    // ------------------------------------------------- CYCLELIFE -----------------------------------------------------
+
+    /**
+     * @ORM\PreUpdate
+     */
+    public function updateDate() /* Lors de la modification d'un article, met à jour la date */
+    {
+        $this->setUpdateDate(new \Datetime());
+    }
+
+
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function increaseArticles() /* Lors de la création d'un article, incrémente $nbArticles */
+    {
+        $this->nbArticles++;
+    }
+
+
+
+    /**
+     * @ORM\PreRemove
+     */
+    public function decreaseArticles() /* Lors de la supression d'un article, décrémente $nbArticles */
+    {
+        $this->nbArticles--;
     }
 }
