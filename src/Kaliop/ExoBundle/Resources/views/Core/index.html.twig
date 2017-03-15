@@ -6,9 +6,8 @@
 
 {% block b_body %}
     <h1>Articles</h1>
-    <hr>
-    <h2>Liste des articles</h2>
     <ul>
+
         {% for article in listArticles %}
             <li>
                 <a href="{{ path("kaliop_exo_view", {"id": article.id}) }}">{{ article.title }}</a>
@@ -18,5 +17,6 @@
         {% else %}
             <li>Aucun article pour le moment</li>
         {% endfor %}
+
     </ul>
 {% endblock %}

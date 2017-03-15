@@ -1,7 +1,0 @@
-<ul class="nav nav-pills nav-stacked">
-    {% for article in listArticles %}
-        <li>
-            <a href="{{ path("kaliop_exo_view", {"id": article.id}) }}">{{ article.title }}</a>
-        </li>
-    {% endfor %}
-</ul>

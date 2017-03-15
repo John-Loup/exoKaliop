@@ -7,18 +7,38 @@
 {% block b_body %}
     <h2>Ajouter un article</h2>
 
-    {{ include("KaliopExoBundle:Core:form.html.twig") }}
+    <div class="well">
+        {{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
 
-    <p>Ici viendront les inputs</p>
+        {{ form_errors(form) }}
 
-    <p>
-        <a href="{{ path("kaliop_exo_view", {"id": article.id}) }}" class="btn btn-primary">
-            <i class="glyphicon glypicon-chevron-left">Valider</i>
-        </a>
-    </p>
-    <p>
-        <a href="{{ path("kaliop_exo_homepage") }}" class="btn btn-default">
-            <i class="glyphicon glypicon-chevron-left">Annuler</i>
-        </a>
-    </p>
+        <div class="form-group">
+            {{ form_label(form.title, "Titre de l'article", {'label_attr': {'class': 'col-sm-3 control-label'}}) }}
+
+            {{ form_errors(form.title) }}
+
+            <div class="col-sm-4">
+                {{ form_widget(form.title, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        <div class="form-group t-area">
+            {{ form_label(form.content, "Contenu de l'article", {'label_attr': {'class': 'col-sm-3 control-label'}}) }}
+            {{ form_errors(form.title) }}
+            <div class="col-sm-4">
+                {{ form_widget(form.content, {'attr': {'class': 'form-control'}}) }}
+            </div>
+        </div>
+
+        {{ form_row(form.date) }}
+
+        {{ form_row(form.author) }}
+
+        {{ form_rest(form) }}
+
+        {{ form_widget(form.confirm, {'attr': {'class': 'btn btn-primary'}}) }}
+
+        {{ form_end(form) }}
+
+    </div>
 {% endblock %}

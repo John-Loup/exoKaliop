@@ -11,6 +11,10 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass="Kaliop\ExoBundle\Repository\ArticleRepository")
  * @ORM\HasLifecycleCallbacks()
  */
+
+// Entité Article,
+// propriétaire de la relation OneToOne avec l'entité Image
+
 class Article
 {
     /**
@@ -23,14 +27,12 @@ class Article
     private $id;
 
 
-
     /**
      * @var \DateTime
      *
      * @ORM\Column(name="date", type="datetime")
      */
     private $date;
-
 
 
     /**
@@ -41,14 +43,12 @@ class Article
     private $title;
 
 
-
     /**
      * @var string
      *
      * @ORM\Column(name="author", type="string", length=60)
      */
     private $author;
-
 
 
     /**
@@ -59,7 +59,6 @@ class Article
     private $content;
 
 
-
     /**
      * @var boolean
      *
@@ -68,32 +67,12 @@ class Article
     private $published = false;
 
 
-
     /**
      * @var
      *
      * @ORM\OneToOne(targetEntity="Kaliop\ExoBundle\Entity\Image", cascade={"persist", "remove"})
      */
     private $image;
-
-
-
-    /**
-     * @var
-     *
-     * @ORM\Column(name="update_date", type="datetime", nullable=true)
-     */
-    private $updateDate;
-
-
-
-    /**
-     * @var
-     *
-     * @ORM\Column(name="nb_articles", type="integer")
-     */
-    private $nbArticles = 0;
-
 
 
     public function __construct()
@@ -105,13 +84,12 @@ class Article
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
         return $this->id;
     }
-
 
 
     /**
@@ -128,17 +106,15 @@ class Article
     }
 
 
-
     /**
      * Get date
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDate()
     {
         return $this->date;
     }
-
 
 
     /**
@@ -155,17 +131,15 @@ class Article
     }
 
 
-
     /**
      * Get title
      *
-     * @return string 
+     * @return string
      */
     public function getTitle()
     {
         return $this->title;
     }
-
 
 
     /**
@@ -182,17 +156,15 @@ class Article
     }
 
 
-
     /**
      * Get author
      *
-     * @return string 
+     * @return string
      */
     public function getAuthor()
     {
         return $this->author;
     }
-
 
 
     /**
@@ -209,29 +181,15 @@ class Article
     }
 
 
-
     /**
      * Get content
      *
-     * @return string 
+     * @return string
      */
     public function getContent()
     {
         return $this->content;
     }
-
-
-
-    /**
-     * Set the current state or publishment (bool)
-     *
-     * @param mixed $published
-     */
-    public function setPublished($published)
-    {
-        $this->published = $published;
-    }
-
 
 
     /**
@@ -245,7 +203,6 @@ class Article
     }
 
 
-
     /**
      * @param mixed $image
      */
@@ -255,7 +212,6 @@ class Article
     }
 
 
-
     /**
      * @return mixed
      */
@@ -263,76 +219,7 @@ class Article
     {
         return $this->image;
     }
-
-
-
-    /**
-     * @param mixed $updateDate
-     */
-    public function setUpdateDate($updateDate)
-    {
-        $this->updateDate = $updateDate;
-    }
-
-
-
-    /**
-     * @return mixed
-     */
-    public function getUpdateDate()
-    {
-        return $this->updateDate;
-    }
-
-
-
-    /**
-     * @param mixed $nbArticles
-     */
-    public function setNbArticles($nbArticles)
-    {
-        $this->nbArticles = $nbArticles;
-    }
-
-
-
-    /**
-     * @return mixed
-     */
-    public function getNbArticles()
-    {
-        return $this->nbArticles;
-    }
-
+}
 
 
     // ------------------------------------------------- CYCLELIFE -----------------------------------------------------
-
-    /**
-     * @ORM\PreUpdate
-     */
-    public function updateDate() /* Lors de la modification d'un article, met à jour la date */
-    {
-        $this->setUpdateDate(new \Datetime());
-    }
-
-
-
-    /**
-     * @ORM\PrePersist
-     */
-    public function increaseArticles() /* Lors de la création d'un article, incrémente $nbArticles */
-    {
-        $this->nbArticles++;
-    }
-
-
-
-    /**
-     * @ORM\PreRemove
-     */
-    public function decreaseArticles() /* Lors de la supression d'un article, décrémente $nbArticles */
-    {
-        $this->nbArticles--;
-    }
-}

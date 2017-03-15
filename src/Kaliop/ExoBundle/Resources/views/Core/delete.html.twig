@@ -1,0 +1,24 @@
+{% extends "KaliopExoBundle::b_layout.html.twig" %}
+
+{%  block title %}
+    Supprimer un article - {{ article.title }}
+{%  endblock %}
+
+{% block b_body %}
+    <h2>Supprimer un article</h2>
+
+    <p>
+        Voulez vous vraiment supprimer l'article : "{{ article.title }}" ?
+    </p>
+
+    <form action="{{ path('kaliop_exo_delete', {'id': article.id}) }}" method="post">
+        <a href="{{ path('kaliop_exo_view', {'id': article.id}) }}" class="btn btn-default">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Cancel
+        </a>
+
+        <input type="submit" value="Confirm" class="btn btn-danger" />
+
+        {{ form_rest(form) }}
+    </form>
+{% endblock %}

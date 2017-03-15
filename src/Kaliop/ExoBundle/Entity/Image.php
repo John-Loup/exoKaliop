@@ -10,7 +10,11 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="image")
  * @ORM\Entity(repositoryClass="Kaliop\ExoBundle\Repository\ImageRepository")
  */
+
+// Entité Image,
+// enfant de la relation OneToOne avec l'entité Article
 class Image
+
 {
     /**
      * @var int
@@ -22,7 +26,6 @@ class Image
     private $id;
 
 
-
     /**
      * @var string
      *
@@ -31,14 +34,12 @@ class Image
     private $url;
 
 
-
     /**
      * @var string
      *
      * @ORM\Column(name="alt", type="string", length=255)
      */
     private $alt;
-
 
 
     /**
@@ -50,7 +51,6 @@ class Image
     {
         return $this->id;
     }
-
 
 
     /**
@@ -67,7 +67,6 @@ class Image
     }
 
 
-
     /**
      * Get url
      *
@@ -77,7 +76,6 @@ class Image
     {
         return $this->url;
     }
-
 
 
     /**
@@ -92,7 +90,6 @@ class Image
 
         return $this;
     }
-
 
 
     /**
