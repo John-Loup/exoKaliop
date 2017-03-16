@@ -29,24 +29,7 @@ class CoreController extends Controller
             $page = 1;
         }
 
-        $nbArticlesPerPages = 4;
-
-        $em = $this->getDoctrine()->getManager();
-        $pagedArticles = $em
-            ->getRepository("KaliopExoBundle:Article")
-            ->findAllPagesAndSort($page, $nbArticlesPerPages)
-        ;
-
-        $pagination = array(
-            "page" =>        $page,
-            "nbPages" =>     ceil(count($pagedArticles) / $nbArticlesPerPages),
-            "routeName" =>   "kaliop_exo_homepage",
-            "paramsRoute" => array()
-        );
-
-        return array("articles" => $pagedArticles, "pagination" => $pagination);
-
-        /*$listArticles = $this
+        $listArticles = $this
             ->getDoctrine()
             ->getManager()
             ->getRepository("KaliopExoBundle:Article")
@@ -56,7 +39,7 @@ class CoreController extends Controller
         return $this->render(
             "KaliopExoBundle:Core:index.html.twig",
             array("listArticles" => $listArticles)
-        );*/
+        );
     }
 
 

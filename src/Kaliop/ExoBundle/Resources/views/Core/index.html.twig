@@ -6,7 +6,7 @@
 
 {% block b_body %}
     <h1>Articles</h1>
-{#    <ul>
+    <ul>
 
         {% for article in listArticles %}
             <li>
@@ -18,25 +18,5 @@
             <li>Aucun article pour le moment</li>
         {% endfor %}
 
-    </ul>#}
-
-    {% if articles is not empty %}
-        {% for article in articles %}
-            <article>
-                <header>
-                    <a href="{{ path("kaliop_exo_view", {"id": article.id}) }}">
-                        <h1 class="article-titre">{{ article.titre }}</h1>
-                    </a>
-                    <div class="article-meta">
-                        Publié le {{ article.date|date('d/m/Y') }}.
-                    </div>
-                </header>
-            </article>
-            <hr class="article-separation"/>
-        {% endfor %}
-    {% else %}
-        <p>Il n'y a aucun article pour l'instant.</p>
-    {% endif %}
-
-    {% include 'KaliopExoBundle:Core:pagination.html.twig' %}
+    </ul>
 {% endblock %}
