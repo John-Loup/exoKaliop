@@ -3,6 +3,7 @@
 namespace Kaliop\ExoBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
+use Doctrine\ORM\Tools\Pagination\Paginator;
 
 /**
  * ArticleRepository
@@ -12,4 +13,34 @@ use Doctrine\ORM\EntityRepository;
  */
 class ArticleRepository extends EntityRepository
 {
+    // Récupère une liste d'article triés par date et paginés
+    public function findAllPagesAndSort($page, $maxNb)
+    {
+        if (!is_numeric($maxNb))
+        {
+            throw new InvalidArgumentException(
+                "La valeur de l\'argument \$maxNb est incorrecte (valeur : ' {$maxNb} ')."
+            );
+        }
+
+        $firstResult = ($page - 1) * $maxNb;
+
+        $qb = $this
+            ->createQueryBuilder("a")
+            ->where("CURRENT_DATE() >= a.date")
+            ->orderBy("a.date", "DESC")
+        ;
+
+        $query = $qb->getQuery();
+        $query->setFirstResult($firstResult)->setMaxResults($maxNb);
+
+        $paginator = new Paginator($query);
+
+        if (($paginator->count() <= $firstResult) && $page != 1)
+        {
+            throw new NotFoundHttpException('La page demandée n\'existe pas.');
+        }
+
+        return $paginator;
+    }
 }

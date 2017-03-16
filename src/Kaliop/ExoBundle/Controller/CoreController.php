@@ -2,11 +2,14 @@
 
 namespace Kaliop\ExoBundle\Controller;
 
-use Kaliop\ExoBundle\Form\ArticleType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Kaliop\ExoBundle\Entity\Article;
+use Kaliop\ExoBundle\Form\ArticleType;
 
 class CoreController extends Controller
 {
@@ -20,7 +23,30 @@ class CoreController extends Controller
             $page = 1;
         }
 
-        $listArticles = $this
+        if (!is_numeric($page))
+        {
+            // throw new NotFoundHttpException("La page que vous demandez n'existe pas !");
+            $page = 1;
+        }
+
+        $nbArticlesPerPages = 4;
+
+        $em = $this->getDoctrine()->getManager();
+        $pagedArticles = $em
+            ->getRepository("KaliopExoBundle:Article")
+            ->findAllPagesAndSort($page, $nbArticlesPerPages)
+        ;
+
+        $pagination = array(
+            "page" =>        $page,
+            "nbPages" =>     ceil(count($pagedArticles) / $nbArticlesPerPages),
+            "routeName" =>   "kaliop_exo_homepage",
+            "paramsRoute" => array()
+        );
+
+        return array("articles" => $pagedArticles, "pagination" => $pagination);
+
+        /*$listArticles = $this
             ->getDoctrine()
             ->getManager()
             ->getRepository("KaliopExoBundle:Article")
@@ -30,7 +56,7 @@ class CoreController extends Controller
         return $this->render(
             "KaliopExoBundle:Core:index.html.twig",
             array("listArticles" => $listArticles)
-        );
+        );*/
     }
 
 
